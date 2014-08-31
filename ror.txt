@@ -1,0 +1,7 @@
+rails new app
+cd app
+rails server
+Ctr + Z
+rails generate controller inicio index
+rails generate scaffold Persona nombre:string apellidos:string 
+rake db:migrate
