@@ -1,0 +1,6 @@
+nasm -f elf64 hello.asm
+ld -o hola hola.o
+
+aveces las personas quye todos piensan que no haran
+nada, son las que hacen cosas que nadie habia imaginado
+
