@@ -1,0 +1,19 @@
+nasm -f elf64 hello.asm
+gcc -m64 -o hello_64 hello_64.o
+
+Algunos tipos de salto	 
+
+jb      72  	  Salta si el valor es inferior
+jnb     73 	  Salta si es superior o igua
+lje	  74   Salta si la comprobacióna
+	es correcta	
+jne	  75   Salta si la comprobación 
+	no es correcta
+jbe	  76 Salta si es inferior o igua
+lja	  77 Salta si es superior
+js	  78 Salta si es negativo el valor
+jns	  79 Salta si no es negativo
+
+Licencias  ejemplos
+FD3F-54RF-7UPL-4FEO
+
